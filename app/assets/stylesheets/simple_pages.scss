@@ -2,6 +2,10 @@ h1 {
   font-family: sans-serif;
   color: grey;
   padding-top: 80px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
 }
 nav {
   text-transform: uppercase;
@@ -9,7 +13,7 @@ nav {
   width: 100%;
   top: 0;
   padding: 10px 5px 10px;
-  background-color: black;
+  background-color: rgba(0,0,0,0.7);
 }
 nav ul li {
   display: inline-block;
@@ -22,9 +26,17 @@ nav ul li a {
 footer {
   text-decoration:underline;
   text-decoration-color: gold;
-  font-size: 1.4em;
+  font-size: 0.8em;
 }
-
+p {
+  text-align: center;
+  margin-top: 30px;
+  display: block;
+}
+img {
+  padding-top: 20px;
+  width: 100%;
+}
 // Place all the styles related to the simple_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
